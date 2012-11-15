@@ -1,0 +1,149 @@
+/* Styles des divisions principales de la page */
+body{
+    background-color: #77AADD;
+    background-image: url("./images/logo.jpg");
+    /*background-image: url("./images/logo.jpg");
+    background-repeat: repeat-x; répéter l'image dans le sens horizontal */
+    margin:0% 20%;
+    padding : 0.6em; /* marge intérieure */
+    font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size:0.8em;
+    clear: left;
+    width:180; 
+}
+
+#entete{
+  background-color:rgb(72,198,236);
+  color : #980101;
+  height: 154px;
+  padding: 0em;
+  border-collapse: separate;
+  margin-right : auto ;
+  margin-left : auto ;
+}
+
+#pied{
+  clear : both;
+  margin-left : 30%;
+  margin-top:30em;
+  padding:0.4em;
+  padding: 0.2em;
+  border-collapse: separate;
+}
+
+#menuGauche {
+    margin-top : 0.8em;
+    padding: 1em;
+    background-color: white;
+    color: rgb(0,85,227);
+    float:left;
+    width: 18%;
+}
+
+#menuDroite {
+    float:right;
+    margin-left:20%;
+    height:75%;
+    width:80%;
+    color:white;
+    background-color:#77AADD;
+}
+
+/* style à appliquer à la balise ul d'identifiant menulist */
+ul#menuList{
+    list-style-position:inside;
+    margin:0px;
+    padding:0px;
+    width:98%;
+    font-size: 1em;
+}
+
+/* style à appliquer aux éléments de la balise ul d'identifiant menulist */
+ul#menuList li {
+    position:relative;
+    margin:0px;
+    padding:0px;
+}
+
+/* apparences des liens dans listes et sous-listes non numérotées */
+ul#menuList a {
+    color:rgb(0,85,227);
+    display:block;
+    text-decoration:none;
+    width:100%;
+}
+ul#menuList a:hover {
+    background: rgb(0,85,227);
+    color: white;
+}
+
+#entete #logoGSB {
+  float : left;
+  width : 238px;
+  /*height : 152px;*/
+}
+
+#entete h1 {
+  margin : 1em;
+  margin-left:11em;
+  font-size : x-large;
+  text-align:left;
+}
+
+#contenu h2 {
+  font-size : large;
+  text-align:left;
+  margin:0;
+  margin-bottom:0.5em;
+}
+
+.logoValidW3c {
+  display: inline;
+}
+#libValidW3c{
+  display : inline;
+  vertical-align:middle;
+}
+
+/* Style pour les liens de la page principale */
+#contenu a {
+   font-size : 1.1em;
+   color:gray;
+   text-decoration:none;
+}
+#contenu a:hover {
+   text-decoration:underline;
+   background-color : #D9BB7A;
+   font-size : 1em;
+}
+
+#contenu h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #1D2941;
+	text-decoration: none;
+	border : 1px solid #6988BE;
+	padding-left: 25px;
+	background-color: #E9F1FE;
+  height : 28px;
+}
+
+#contenu img {
+  height : 28px; 
+  float : left;
+
+}
+
+#bienvenue {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+#identification {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
